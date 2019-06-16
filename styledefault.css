@@ -21,6 +21,11 @@ body{
   to {transform: translate(-50%,-50%) rotate(-360deg); border-radius:100% }
 }
 
+@keyframes spin{
+  from: {transform: rotate(0deg); border-radius: 20px}
+  to {transform: rotate(360deg); border-radius: 100px}
+}
+
 #propic:hover{
   animation: rounding-spin 1.5s ease-in-out infinite;
 }
@@ -111,6 +116,7 @@ h2{
      background-color: #ffaebe;
      border: 5px solid #ffaebe;
      box-shadow:0px 0px 10px #c99893;
+     animation: spin 1s ease-in-out infinite;
 }
 
 #about{
