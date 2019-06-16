@@ -1,0 +1,76 @@
+<html>
+
+<head>
+   <link id="pagestyle" href="styledefault.css" rel="stylesheet">
+
+   <title> it's me, Margherine</title>
+
+ </head>
+
+<body>
+
+  <div id="wrapper">
+
+      <div type="button" class="toggle" onclick="switchstyle()"></div>
+
+      <div id="nav-box">
+            <div class="icon">
+              <a href="index.html">
+                <img class="indexbutton" src="pics/home.png">
+                </a>
+            </div>
+
+            <div class="icon">
+              <a href="gallery.html">
+                <img class="gallerybutton" src="pics/gallery.png">
+                </a>
+            </div>
+
+            <div class="icon">
+              <a href="contacts.html">
+                  <img class="contactsbutton" src="pics/contacts.png">
+                </a>
+            </div>
+
+      </div>
+
+      <div id="content-box">
+        <div id="contacts">
+            <h3>CONTACTS (𝖋𝖆k𝒆)</h3>
+            <p>
+                mail: megg@ovetto.sodo
+              </br>
+                @m-egg su instagram
+              </br>
+                <a href="meggthebrokenegg.com">meggthebrokenegg.com </a>
+              </br>
+                <img src="pics/eggs.gif">
+            </p>
+        </div>
+
+      </div>
+
+      <div id= "box">
+        <div id= "title">
+          <h1 class="text">MEGG</h1>
+          <h2 class="text"> un ovetto poco cotto</h2>
+        </div>
+      </div>
+
+      <img id="propic" src="pics/propic.png">
+
+    </div>
+
+
+    <script>
+        function switchstyle() {
+            var style = document.getElementById("pagestyle");
+            if (style.href.match("styledefault.css")) {
+              style.href = "stylealternate.css";
+            }
+            else {
+              style.href = "styledefault.css";
+            }
+        }
+    </script>
+</body>
