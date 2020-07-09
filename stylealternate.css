@@ -1,0 +1,197 @@
+body{
+  text-align: justify;
+  background-repeat: repeat;
+  background-color: #7fb4ff;
+  background-image: linear-gradient(180deg, transparent, #002449);
+  }
+
+#wrapper{
+  width:450px;
+  height:100%;
+  position: absolute;
+  top:0%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#propic{
+  height:100px;
+  width: 100px;
+  border-radius: 50%;
+  position:absolute;
+  top:25%;
+  transform: translateY(-50%);
+  border: 5px solid white;
+  box-shadow:0px 0px 10px #5476cf;
+}
+
+@keyframes pulse {
+  from {transform: translateY(-50%) scale(1);}
+  to {transform: translateY(-50%) scale(1.1);}
+}
+
+#propic:hover{
+  animation: pulse 1s ease-in-out infinite alternate;
+}
+
+#box{
+  height:110px;
+  width: 400px;
+  border-radius: 55px;
+  position:absolute;
+  top: 25%;
+  transform: translatey(-50%);
+  box-shadow:0px 0px 10px #5476cf;
+  background-color: white;
+}
+
+#title{
+  width:350px;
+  position:absolute;
+  top:50%;
+  transform: translate(0%, -50%);
+}
+
+.text{
+  font-family: "Raleway", Arial, sans-serif;
+  text-align: right;
+  line-height: 0;
+  font-weight: normal;
+  color: #484848;
+  padding-left: 10px;
+}
+
+h1{
+  font-size: 16pt;
+  letter-spacing: 1.5;
+}
+
+h2{
+  font-size:12pt;
+}
+
+
+#content-box{
+  position: absolute;
+  top: 25%;
+  left: 55px;
+  background-color: white;
+  box-shadow:0px 0px 10px #5476cf;
+  border-radius: 5px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+#about, #gallery, #contacts{
+  width: 240px;
+}
+
+p{
+  font-family: "Raleway", Arial, sans-serif;
+  font-size: 9pt;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #484848;
+}
+
+h3{
+  font-family: "Raleway", Arial, sans-serif;
+  font-size: 14pt;
+  padding-top: 50px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  font-weight: normal;
+  letter-spacing: 1.5;
+  color: #484848;
+}
+
+.toggle {
+  height: 20px;
+  width: 20px;
+  border-radius: 20%;
+  position:absolute;
+  top: calc(25% - 85px);
+  left:calc(50% - 170px);
+  transform:translate(-50%, -50%);
+  background-color: white;
+  border: 5px solid white;
+  box-shadow:0px 0px 10px #5476cf;
+}
+
+
+.toggle:hover{
+  border-radius: 50%;
+}
+
+#nav-box{
+  background-color: #7fb4ff;
+  border-radius: 50px;
+  border: 10px solid #7fb4ff;
+  width: 30px;
+  position: absolute;
+  left: 435px;
+  top: 25%;
+  transform: translate(-50%, -50%);
+  box-shadow:0px 0px 50px #5476cf;
+}
+
+.icon img{
+  border-radius: 50%;
+  background-color: #6c7edb;
+  line-height: 0;
+  border: 5px solid #6c7edb;
+  height: 20px;
+  width: 20px;
+}
+
+.contactsbutton, .gallerybutton{
+  margin-top: 5px;
+}
+
+.icon img:hover{
+     background-color: #58daed;
+     border: 5px solid #58daed;
+     box-shadow:0px 0px 10px #5476cf;
+}
+
+#contacts img{
+  width:240px;
+  margin-top: 5px;
+}
+
+#scrollbar{
+  margin-bottom: 5px;
+  height: 60px;
+  width:240px;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+::-webkit-scrollbar {
+  height: 6px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #6c7edb;
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1eeee;
+  border-radius: 100px;
+}
+
+
+#scrollbar img{
+  object-fit: cover;
+  height: 50px;
+  width: 50px;
+  overflow-y: hidden;
+}
+
+.large{
+  width:240px;
+}

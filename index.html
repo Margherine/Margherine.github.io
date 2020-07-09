@@ -1,0 +1,84 @@
+<html>
+
+<head>
+   <link id="pagestyle" href="styledefault.css" rel="stylesheet">
+
+   <title> it's me, Margherine</title>
+
+</head>
+
+<body>
+
+  <div id="wrapper">
+
+      <div type="button" class="toggle" onclick="switchstyle()"></div>
+
+      <div id="nav-box">
+            <div class="icon">
+              <a href="index.html">
+                <img class="indexbutton" src="pics/home.png">
+                </a>
+            </div>
+
+            <div class="icon">
+              <a href="gallery.html">
+                <img class="gallerybutton" src="pics/gallery.png">
+                </a>
+            </div>
+
+            <div class="icon">
+              <a href="contacts.html">
+                  <img class="contactsbutton" src="pics/contacts.png">
+                </a>
+            </div>
+
+      </div>
+
+      <div id="content-box">
+        <div id="about">
+            <h3>ABOUT ME</h3>
+            <p>
+              Il mio nome è Margherita Foglio, sono nata in provincia di Cremona e ho vissuto in un
+paesino di campagna per tutta la mia vita.</br>
+Interessata a qualsiasi cosa abbia a che fare con l’arte da che ho memoria, è solo dopo
+i primi anni di liceo che mi sono resa conto che “arte” non è solo pittura e architettura.
+Mi sono avvicinata al mondo del design quasi per gioco, quando online comparivano
+i primi tutorial su come usare Photoshop. Alla fine del percorso liceale ho però capito
+che progettare sarebbe stato quello che avrei voluto fare nella vita.</br>
+Iscritta al Politecnico di Milano, a modo suo ogni corso mi ha aiutato a sviluppare
+capacità che nemmeno pensavo sarebbero emerse in me; sia a livello pratico, come
+l’utilizzo di programmi specifici; che a livello interpersonale, capendo tramite errori e
+tentativi come lavorare in un gruppo.</br>
+Nonostante si chiuda un altro periodo della mia vita, quel che è certo è che non avviene
+altrettanto per il mio sviluppo personale. Entrata in un’università con il timore della
+novità, ne esco appesantita da un nuovo set di abilità che mi rendono più leggera per le
+esperienze che mi attendono al di fuori di un contesto scolastico.
+            </p>
+        </div>
+
+      </div>
+
+      <div id= "box">
+        <div id= "title">
+          <h1 class="text">MEGG</h1>
+          <h2 class="text"> un ovetto poco cotto</h2>
+        </div>
+      </div>
+
+      <img id="propic" src="pics/propic.png">
+
+  </div>
+
+  <script>
+      function switchstyle() {
+          var style = document.getElementById("pagestyle");
+          if (style.href.match("styledefault.css")) {
+            style.href = "stylealternate.css";
+          }
+          else {
+            style.href = "styledefault.css";
+          }
+      }
+  </script>
+
+</body>
